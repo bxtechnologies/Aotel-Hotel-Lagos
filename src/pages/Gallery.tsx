@@ -53,23 +53,23 @@ export function Gallery() {
           ))}
         </div>
 
-        <motion.div layout className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
-          <AnimatePresence>
-            {filteredImages.map((image, index) => (
+        <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <AnimatePresence mode="popLayout">
+            {filteredImages.map((image) => (
               <motion.div
                 layout
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                key={image.src + index}
-                className="cursor-pointer overflow-hidden group relative break-inside-avoid shadow-sm hover:shadow-xl transition-all duration-500"
+                key={image.src}
+                className="cursor-pointer overflow-hidden group relative shadow-sm hover:shadow-xl transition-all duration-500 aspect-square"
                 onClick={() => setSelectedImage(image.src)}
               >
                 <img 
                   src={image.src} 
                   alt={image.alt} 
-                  className="w-full h-auto object-cover transition-transform duration-1000 group-hover:scale-105"
+                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center backdrop-blur-[2px]">

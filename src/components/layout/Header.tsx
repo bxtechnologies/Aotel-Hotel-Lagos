@@ -19,7 +19,11 @@ export function Header() {
 
   useEffect(() => {
     setIsMobileMenuOpen(false);
-    window.scrollTo(0, 0);
+    // Delay scroll to top until after the exit animation completes
+    const timer = setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 400);
+    return () => clearTimeout(timer);
   }, [location.pathname]);
 
   const navLinks = [
