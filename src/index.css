@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --color-primary: #0F1110;
+  --color-secondary: #B9935A;
+  --color-accent: #2C3E2D;
+  --color-background: #F9F9F9;
+  --color-surface: #FFFFFF;
+  --color-surface-dark: #1A1A1A;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-primary font-sans antialiased selection:bg-secondary selection:text-white;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+  
+  /* Hide scrollbar for clean look but allow scrolling */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Aotel Hotel Lagos",
+  "description": "Modern hotel website for Aotel Hotel Lagos Owodunni, featuring room booking, gallery, amenities, and contact information.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
