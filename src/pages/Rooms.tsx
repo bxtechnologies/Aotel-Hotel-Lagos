@@ -56,6 +56,8 @@ export function Rooms() {
                   src={room.featuredImage} 
                   alt={room.name}
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-500"></div>
               </div>

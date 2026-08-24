@@ -37,12 +37,14 @@ export function Home() {
           style={{ y: heroY }}
         >
           <motion.img 
-            src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=90&w=2560&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=1200&auto=format&fit=crop" 
             alt="Aotel Hotel Lagos exterior" 
             className="w-full h-full object-cover scale-105"
             initial={{ scale: 1.15 }}
             animate={{ scale: 1.05 }}
             transition={{ duration: 3, ease: "easeOut" }}
+            fetchPriority="high"
+            decoding="sync"
           />
           <div className="absolute inset-0 bg-primary/40 mix-blend-multiply"></div>
           <div className="absolute inset-0 bg-gradient-to-b from-primary/80 via-transparent to-primary/60"></div>

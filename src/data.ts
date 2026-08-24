@@ -11,11 +11,11 @@ export const rooms: Room[] = [
     size: "28 sqm",
     bedType: "1 Queen Bed",
     amenities: ["Climate Control", "High-Speed Wi-Fi", "4K Smart TV", "Marble Bathroom", "24/7 Room Service", "Work Desk"],
-    featuredImage: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=90&w=2560&auto=format&fit=crop",
+    featuredImage: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1200&auto=format&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=90&w=2560&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=90&w=2560&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=90&w=2560&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1200&auto=format&fit=crop"
     ]
   },
   {
@@ -28,11 +28,11 @@ export const rooms: Room[] = [
     size: "38 sqm",
     bedType: "1 King Bed",
     amenities: ["Climate Control", "High-Speed Wi-Fi", "4K Smart TV", "Mini Bar", "Lounge Area", "Premium Toiletries", "Digital Safe", "24/7 Room Service"],
-    featuredImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=90&w=2560&auto=format&fit=crop",
+    featuredImage: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=90&w=2560&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=90&w=2560&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1560067174-c5a3a8f37060?q=90&w=2560&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1560067174-c5a3a8f37060?q=80&w=1200&auto=format&fit=crop"
     ]
   },
   {
@@ -45,11 +45,11 @@ export const rooms: Room[] = [
     size: "60 sqm",
     bedType: "1 King Bed",
     amenities: ["Climate Control", "Premium Wi-Fi", "Two 4K Smart TVs", "Living Room", "Fully Stocked Mini Bar", "Freestanding Tub", "Plush Bathrobes", "Espresso Machine", "Digital Safe", "Priority Room Service"],
-    featuredImage: "https://images.unsplash.com/photo-1631049035182-249067d7618e?q=90&w=2560&auto=format&fit=crop",
+    featuredImage: "https://images.unsplash.com/photo-1631049035182-249067d7618e?q=80&w=1200&auto=format&fit=crop",
     images: [
-      "https://images.unsplash.com/photo-1631049035182-249067d7618e?q=90&w=2560&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?q=90&w=2560&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=90&w=2560&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1631049035182-249067d7618e?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1200&auto=format&fit=crop"
     ]
   }
 ];
@@ -68,12 +68,12 @@ export const amenitiesList: Amenity[] = [
 ];
 
 export const galleryImages = [
-  { src: "https://images.unsplash.com/photo-1566073171615-3564973aa659?q=90&w=2560&auto=format&fit=crop", category: "Exterior", alt: "Magnificent Hotel Exterior" },
-  { src: "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=90&w=2560&auto=format&fit=crop", category: "Rooms", alt: "Luxurious Deluxe Bedroom" },
-  { src: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=90&w=2560&auto=format&fit=crop", category: "Dining", alt: "Elegant Restaurant Area" },
-  { src: "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=90&w=2560&auto=format&fit=crop", category: "Rooms", alt: "Classic Room Intricate Detail" },
-  { src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=90&w=2560&auto=format&fit=crop", category: "Interiors", alt: "Sophisticated Lounge Area" },
-  { src: "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=90&w=2560&auto=format&fit=crop", category: "Dining", alt: "Gourmet Breakfast Spread" },
-  { src: "https://images.unsplash.com/photo-1542314831-c6a4d27ce6a2?q=90&w=2560&auto=format&fit=crop", category: "Exterior", alt: "Architecture and Design" },
-  { src: "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?q=90&w=2560&auto=format&fit=crop", category: "Interiors", alt: "Luxurious Bathroom" },
+  { src: "https://images.unsplash.com/photo-1566073171615-3564973aa659?q=80&w=1200&auto=format&fit=crop", category: "Exterior", alt: "Magnificent Hotel Exterior" },
+  { src: "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200&auto=format&fit=crop", category: "Rooms", alt: "Luxurious Deluxe Bedroom" },
+  { src: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1200&auto=format&fit=crop", category: "Dining", alt: "Elegant Restaurant Area" },
+  { src: "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200&auto=format&fit=crop", category: "Rooms", alt: "Classic Room Intricate Detail" },
+  { src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop", category: "Interiors", alt: "Sophisticated Lounge Area" },
+  { src: "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1200&auto=format&fit=crop", category: "Dining", alt: "Gourmet Breakfast Spread" },
+  { src: "https://images.unsplash.com/photo-1542314831-c6a4d27ce6a2?q=80&w=1200&auto=format&fit=crop", category: "Exterior", alt: "Architecture and Design" },
+  { src: "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?q=80&w=1200&auto=format&fit=crop", category: "Interiors", alt: "Luxurious Bathroom" },
 ];
