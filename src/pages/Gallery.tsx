@@ -63,7 +63,7 @@ export function Gallery() {
                 exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
                 key={image.src}
-                className="cursor-pointer overflow-hidden group relative shadow-sm hover:shadow-xl transition-all duration-500 aspect-square"
+                className="cursor-pointer overflow-hidden group relative shadow-sm hover:shadow-xl transition-all duration-500 aspect-square bg-primary/5"
                 onClick={() => setSelectedImage(image.src)}
               >
                 <img 
@@ -71,6 +71,7 @@ export function Gallery() {
                   alt={image.alt} 
                   className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                   loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center backdrop-blur-[2px]">
                   <span className="text-white font-heading text-xl tracking-widest uppercase">{image.category}</span>

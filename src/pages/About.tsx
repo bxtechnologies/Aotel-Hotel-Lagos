@@ -55,11 +55,13 @@ export function About() {
             transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
             className="relative order-1 lg:order-2"
           >
-            <div className="aspect-[3/4] relative z-10 overflow-hidden shadow-2xl">
+            <div className="aspect-[3/4] relative z-10 overflow-hidden shadow-2xl bg-primary/5">
               <img 
-                src="https://images.unsplash.com/photo-1542314831-c6a4d27ce6a2?q=90&w=2560&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop" 
                 alt="Hotel exterior" 
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-primary/10"></div>
             </div>
@@ -68,12 +70,14 @@ export function About() {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 1 }}
-              className="absolute top-1/4 -right-12 w-3/5 aspect-square z-20 overflow-hidden shadow-2xl border-8 border-background hidden md:block"
+              className="absolute top-1/4 -right-12 w-3/5 aspect-square z-20 overflow-hidden shadow-2xl border-8 border-background hidden md:block bg-primary/5"
             >
               <img 
-                src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=90&w=2560&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1200&auto=format&fit=crop" 
                 alt="Dining experience" 
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </motion.div>
           </motion.div>

@@ -80,7 +80,7 @@ export function Location() {
             className="bg-surface p-4 aspect-square lg:aspect-auto lg:h-[700px] w-full relative shadow-2xl border border-primary/5"
           >
             <div className="w-full h-full bg-primary/5 flex items-center justify-center border border-primary/10 overflow-hidden relative group">
-              <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=90&w=2560&auto=format&fit=crop" alt="Map View" className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:scale-105 transition-transform duration-1000" />
+              <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1200&auto=format&fit=crop" alt="Map View" className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:scale-105 transition-transform duration-1000" loading="lazy" decoding="async" />
               <div className="relative text-center p-8 bg-white/90 backdrop-blur-md shadow-xl border border-white/50 max-w-xs">
                 <MapPin size={40} className="mx-auto mb-4 text-secondary" strokeWidth={1.5} />
                 <h3 className="font-heading text-2xl text-primary mb-2">Ikeja, Lagos</h3>

@@ -68,12 +68,12 @@ export const amenitiesList: Amenity[] = [
 ];
 
 export const galleryImages = [
-  { src: "https://images.unsplash.com/photo-1566073171615-3564973aa659?q=80&w=1200&auto=format&fit=crop", category: "Exterior", alt: "Magnificent Hotel Exterior" },
+  { src: "https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=1200&auto=format&fit=crop", category: "Exterior", alt: "Magnificent Hotel Exterior" },
   { src: "https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=1200&auto=format&fit=crop", category: "Rooms", alt: "Luxurious Deluxe Bedroom" },
   { src: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1200&auto=format&fit=crop", category: "Dining", alt: "Elegant Restaurant Area" },
   { src: "https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200&auto=format&fit=crop", category: "Rooms", alt: "Classic Room Intricate Detail" },
   { src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop", category: "Interiors", alt: "Sophisticated Lounge Area" },
   { src: "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1200&auto=format&fit=crop", category: "Dining", alt: "Gourmet Breakfast Spread" },
-  { src: "https://images.unsplash.com/photo-1542314831-c6a4d27ce6a2?q=80&w=1200&auto=format&fit=crop", category: "Exterior", alt: "Architecture and Design" },
+  { src: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1200&auto=format&fit=crop", category: "Exterior", alt: "Architecture and Poolside" },
   { src: "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?q=80&w=1200&auto=format&fit=crop", category: "Interiors", alt: "Luxurious Bathroom" },
 ];

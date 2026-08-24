@@ -147,13 +147,15 @@ export function Home() {
               transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
               className="relative"
             >
-              <div className="aspect-[4/5] relative z-10 overflow-hidden shadow-2xl">
+              <div className="aspect-[4/5] relative z-10 overflow-hidden shadow-2xl bg-primary/5">
                 <motion.img 
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 1.5, ease: "easeOut" }}
-                  src="https://images.unsplash.com/photo-1590490360182-c33d57733427?q=90&w=2560&auto=format&fit=crop" 
+                  src="https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1200&auto=format&fit=crop" 
                   alt="Hotel interior detail" 
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-surface shadow-xl z-0 hidden md:block border border-primary/5"></div>
@@ -254,9 +256,9 @@ export function Home() {
               key={index}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "100px" }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className="aspect-square overflow-hidden relative group"
+              className="aspect-square overflow-hidden relative group bg-primary/5"
             >
               <motion.img 
                 whileHover={{ scale: 1.1 }}
@@ -264,6 +266,8 @@ export function Home() {
                 src={image.src} 
                 alt={image.alt} 
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-primary/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                 <span className="text-white font-heading tracking-[0.2em] uppercase text-sm font-medium">{image.category}</span>
